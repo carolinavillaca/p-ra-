@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pêra+ | Início</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header-sticky">
+        <div class="logo">
+            <img src="https://i.imgur.com/z005PE1.png" alt="Logo Pêra+" class="logo-icon">
+            <span>Pêra+</span>
+        </div>
+        <!-- Espaço para ícones de usuário, busca, etc. -->
+    </header>
+
+    <main>
+        <!-- 1. CARROSSEL DE DESTAQUE -->
+        <section class="hero-carousel">
+            <div class="carousel-container">
+                <!-- Slide 1 -->
+                <div class="slide active" style="background-image: url('https://i.imgur.com/gSZXW9T.jpeg');">
+                    <div class="slide-content">
+                        <h1>Sitcom</h1>
+                        <p>Risos, caos e a puberdade em dose máxima.</p>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide" style="background-image: url('https://i.imgur.com/Uv7f2Hh.jpeg');">
+                     <div class="slide-content">
+                        <h1>Aventura Espacial</h1>
+                        <p>Descubra novos mundos e enfrente o desconhecido.</p>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide" style="background-image: url('https://i.imgur.com/Q2yF9uD.jpeg');">
+                     <div class="slide-content">
+                        <h1>Animação Premiada</h1>
+                        <p>Uma jornada visualmente deslumbrante e emocionante.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-arrow next"><i class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <!-- 2. FILTRO DE HUMOR -->
+        <section class="mood-filter">
+            <h2><span class="gradient-text">No clima de...?</span></h2>
+            <div class="mood-buttons">
+                <button class="mood-btn">Preciso rir</button>
+                <button class="mood-btn">Nó na cabeça</button>
+                <button class="mood-btn highlight active">Me surpreenda</button>
+                <button class="mood-btn">Algo leve</button>
+                <button class="mood-btn">Para aquecer o coração</button>
+            </div>
+        </section>
+
+        <!-- 3. SEÇÕES DE FILMES -->
+        <section class="movie-section">
+            <h2>Romances</h2>
+            <div class="movie-row">
+                <div class="movie-card">
+                    <img src="https://i.imgur.com/zNzcRNy.jpg" alt="Titanic">
+                    <div class="card-overlay">
+                        <button class="btn-play">Assista agora</button>
+                    </div>
+                </div>
+                <div class="movie-card"><img src="https://i.imgur.com/8QG9g83.jpg" alt="La La Land"></div>
+                <div class="movie-card"><img src="https://i.imgur.com/g7S7KPA.jpg" alt="Orgulho e Preconceito"></div>
+                <div class="movie-card">
+                    <img src="https://i.imgur.com/0u0b3eH.jpg" alt="Questão de Tempo">
+                    <div class="card-overlay">
+                        <button class="btn-play">Assista agora</button>
+                    </div>
+                </div>
+                <div class="movie-card"><img src="https://i.imgur.com/rS2YQ6s.jpg" alt="Her"></div>
+            </div>
+        </section>
+
+        <section class="movie-section">
+            <h2>Infantil</h2>
+            <div class="movie-row">
+                <div class="movie-card"><img src="https://i.imgur.com/mOQYR0z.jpg" alt="O Estranho Mundo de Jack"></div>
+                <div class="movie-card">
+                    <img src="https://i.imgur.com/6aKzUMB.jpg" alt="Meu Malvado Favorito">
+                     <div class="card-overlay">
+                        <button class="btn-play">Assista agora</button>
+                    </div>
+                </div>
+                <div class="movie-card"><img src="https://i.imgur.com/rLz9YqV.jpg" alt="Shrek"></div>
+                <div class="movie-card"><img src="https://i.imgur.com/dZcQjA0.jpg" alt="Divertida Mente"></div>
+                <div class="movie-card"><img src="https://i.imgur.com/t3g4i2C.jpg" alt="Toy Story"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
