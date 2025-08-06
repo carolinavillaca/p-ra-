@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     //api
-    const API_KEY = 'AIzaSyADpLlk2l_XYYCG9ZEhPrxVU6eVr6CiB4E'; 
+    const API_KEY = ''; 
 
     const categories = {
         hero:     { query: 'lançamentos filmes 2024 trailer oficial', limit: 5 },
@@ -238,3 +238,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }*/
 });
+
