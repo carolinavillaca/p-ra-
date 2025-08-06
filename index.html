@@ -11,43 +11,27 @@
 
     <header class="header-sticky">
         <div class="logo">
-            <img src="https://i.imgur.com/z005PE1.png" alt="Logo Pêra+" class="logo-icon">
+            <img src="#" alt="Logo Pêra+" class="logo-icon">
             <span>Pêra+</span>
         </div>
-        <!-- Espaço para ícones de usuário, busca, etc. -->
     </header>
 
     <main>
-        <!-- 1. CARROSSEL DE DESTAQUE -->
-        <section class="hero-carousel">
+        <!-- carrossel destaque -->
+        <section class="hero-section">
             <div class="carousel-container">
-                <!-- Slide 1 -->
-                <div class="slide active" style="background-image: url('https://i.imgur.com/gSZXW9T.jpeg');">
-                    <div class="slide-content">
-                        <h1>Sitcom</h1>
-                        <p>Risos, caos e a puberdade em dose máxima.</p>
-                    </div>
+                <div class="carousel-images">
                 </div>
-                <!-- Slide 2 -->
-                <div class="slide" style="background-image: url('https://i.imgur.com/Uv7f2Hh.jpeg');">
-                     <div class="slide-content">
-                        <h1>Aventura Espacial</h1>
-                        <p>Descubra novos mundos e enfrente o desconhecido.</p>
-                    </div>
-                </div>
-                <!-- Slide 3 -->
-                <div class="slide" style="background-image: url('https://i.imgur.com/Q2yF9uD.jpeg');">
-                     <div class="slide-content">
-                        <h1>Animação Premiada</h1>
-                        <p>Uma jornada visualmente deslumbrante e emocionante.</p>
-                    </div>
+                <div class="carousel-overlay">
+                    <h2 id="hero-title">Carregando títulos...</h2>
+                    <p id="hero-description">Buscando os melhores trailers para você.</p>
                 </div>
             </div>
             <button class="carousel-arrow prev"><i class="fas fa-chevron-left"></i></button>
             <button class="carousel-arrow next"><i class="fas fa-chevron-right"></i></button>
         </section>
 
-        <!-- 2. FILTRO DE HUMOR -->
+        <!-- filtro de humor -->
         <section class="mood-filter">
             <h2><span class="gradient-text">No clima de...?</span></h2>
             <div class="mood-buttons">
@@ -59,44 +43,29 @@
             </div>
         </section>
 
-        <!-- 3. SEÇÕES DE FILMES -->
-        <section class="movie-section">
-            <h2>Romances</h2>
-            <div class="movie-row">
-                <div class="movie-card">
-                    <img src="https://i.imgur.com/zNzcRNy.jpg" alt="Titanic">
-                    <div class="card-overlay">
-                        <button class="btn-play">Assista agora</button>
-                    </div>
-                </div>
-                <div class="movie-card"><img src="https://i.imgur.com/8QG9g83.jpg" alt="La La Land"></div>
-                <div class="movie-card"><img src="https://i.imgur.com/g7S7KPA.jpg" alt="Orgulho e Preconceito"></div>
-                <div class="movie-card">
-                    <img src="https://i.imgur.com/0u0b3eH.jpg" alt="Questão de Tempo">
-                    <div class="card-overlay">
-                        <button class="btn-play">Assista agora</button>
-                    </div>
-                </div>
-                <div class="movie-card"><img src="https://i.imgur.com/rS2YQ6s.jpg" alt="Her"></div>
+        <!-- seção de filmes -->
+        <section id="continue-watching" class="shelf">
+            <h2>Continue assistindo</h2>
+            <div class="movie-list"></div>
+        </section>
+
+        <section class="content-shelf" id="sitcoms">
+            <h2>Sitcom - risos, caos e a puberdade em dose máxima.</h2>
+            <div class="movie-list">
             </div>
         </section>
 
-        <section class="movie-section">
-            <h2>Infantil</h2>
-            <div class="movie-row">
-                <div class="movie-card"><img src="https://i.imgur.com/mOQYR0z.jpg" alt="O Estranho Mundo de Jack"></div>
-                <div class="movie-card">
-                    <img src="https://i.imgur.com/6aKzUMB.jpg" alt="Meu Malvado Favorito">
-                     <div class="card-overlay">
-                        <button class="btn-play">Assista agora</button>
-                    </div>
-                </div>
-                <div class="movie-card"><img src="https://i.imgur.com/rLz9YqV.jpg" alt="Shrek"></div>
-                <div class="movie-card"><img src="https://i.imgur.com/dZcQjA0.jpg" alt="Divertida Mente"></div>
-                <div class="movie-card"><img src="https://i.imgur.com/t3g4i2C.jpg" alt="Toy Story"></div>
+        <section class="content-shelf" id="romance">
+            <h2>Comédias Românticas Para Aquecer o Coração</h2>
+            <div class="movie-list">
             </div>
         </section>
 
+        <section class="content-shelf" id="animation">
+            <h2>Animações que Encantam Gerações</h2>
+            <div class="movie-list">
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
